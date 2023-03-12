@@ -1,0 +1,283 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 5px solid white;
+  width: 98vw;
+}
+
+.TopHeaderIcon {
+  padding: 3px;
+  width: 100%;
+  margin-bottom: 15px;
+  box-shadow: 0 1px 3px 1px rgba(128, 134, 138, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: transparent;
+}
+
+.topsheet {
+  height: 100%;
+}
+.sheet {
+  text-align: left;
+  border: 5px solid white;
+  height: 1001px;
+  width: 700px;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 3px 1px rgba(18, 127, 211, 0.15);
+}
+
+.sheet:focus {
+  outline: none;
+}
+
+.allIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: none;
+  padding: 10px;
+  background-color: transparent;
+  height: 100%;
+}
+.allIcons:hover {
+  background-color: rgb(209, 209, 209);
+  cursor: pointer;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.mapIcon {
+  display: flex;
+}
+
+.zoom {
+  border: none;
+  cursor: pointer;
+  border: 1px solid transparent !important;
+}
+
+.zoom:focus {
+  border: none;
+  outline: none;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.zoom:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.fontSizeInput {
+  width: 30px;
+  height: 15px;
+}
+
+.minusBtn {
+  height: 22px;
+  width: 22px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+}
+.minusBtn:hover {
+  box-shadow: 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+}
+.plusBtn {
+  height: 22px;
+  width: 22px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+}
+.plusBtn:hover {
+  box-shadow: 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+}
+.font-size-btn:focus {
+  outline: none;
+}
+
+.downloadIcon {
+  position: fixed;
+  bottom: 40px;
+  right: 30px;
+  transform: scale(3);
+  margin-right: 30px;
+}
+
+.documentImg {
+  display: flex;
+  margin: 0;
+  justify-content: left;
+  box-shadow: 0 1px 3px 1px rgb(255, 254, 254);
+  width: 100%;
+  padding: 5px;
+  background-color: white;
+}
+
+.colorInput1 {
+  background-color: transparent;
+  border: none;
+  height: 0px;
+  width: 0px;
+}
+
+.colorInput2 {
+  display: flex;
+  flex-direction: column;
+  width: 50px;
+  border: none;
+  background-color: transparent;
+}
+.inputhigh {
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  opacity: 0;
+}
+
+.ImageContainer {
+ width: 10%;
+ height: 10%;
+}
+
+.btnFormatecolor {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  padding: 10px;
+  gap: 10px;
+}
+
+.FixHighIconbtn {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.font_style {
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.Emoji {
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fontSize {
+  margin: 5px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .sheet {
+    text-align: left;
+    border: 5px solid white;
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 3px 1px rgba(18, 127, 211, 0.15);
+  }
+
+  .TopHeaderIcon {
+    flex-direction: column;
+    display: flex;
+    background-color: transparent;
+
+    text-align: right;
+    align-items: flex-end;
+    position: relative;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    gap: 0.2rem;
+    max-height: 90vh;
+    width: auto;
+    z-index: 1;
+    overflow-y: auto;
+    right: -15.4rem;
+    top: 1.2rem;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 5px solid white;
+  }
+  .mapIcon {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .topsheet {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* position: relative;
+    top: -47rem; */
+    position: absolute;
+    top: 4rem;
+  }
+
+  .allIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+    padding: 13px;
+    margin-right: 20px;
+    background-color: transparent;
+    height: 100%;
+  }
+
+  .btnFormatecolor {
+    padding: 13px;
+    margin-right: 20px;
+  }
+  .colorInput2 {
+    padding: 13px;
+    margin-right: 20px;
+  }
+
+  .imgicon {
+    padding: 13px;
+    margin-right: 20px;
+  }
+
+  .downloadIcon {
+    position: fixed;
+    bottom: 28px;
+    right: 27rem;
+    transform: scale(2);
+    margin-right: 70px;
+  }
+
+  .font_style {
+    display: none;
+  }
+  .Emoji {
+    display: none;
+  }
+}
