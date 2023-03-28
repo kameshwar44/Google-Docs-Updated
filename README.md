@@ -1,5 +1,4 @@
-As a ReactJS developer, you can include a description of a Google Docs clone that you have built on your resume to showcase your skills and experience. Here's a sample description:
-
+As a ReactJS developer, you can include a description of a Google Docs clone that you have built in react js showcase my skills and experience. 
 Google Docs Clone (ReactJS):
 Developed a clone of Google Docswith full functionality.
 Implemented features for underlining, bolding, and italicizing text and many more.
